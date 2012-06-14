@@ -6,11 +6,12 @@
     <script src="todo.js"></script>
     <link rel="stylesheet" href="todo.css">
     <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href=' http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'> 
 </head>
 
 <body>
     <div ng-controller="TodoCtrl">
-        Total Todos :{{getLength()}}
+        <p class="postit">Total Todos :{{getLength()}}</p>
         <ul class="unstyled">
             <li ng-repeat="todo in todos">
                 <input type="checkbox" ng-model="todo.done" />

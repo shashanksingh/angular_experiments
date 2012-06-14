@@ -6,3 +6,32 @@
 .done-false {
     color : #000;
 }
+
+
+p.postit a{ 
+    color: black; 
+    font-family: 'Reenie Beanie', arial, serif; 
+    font-size:50px; 
+    text-decoration:none; 
+    text-shadow: 3px 3px 3px #AAA; } 
+
+p.postit { 
+    margin:100px auto; 
+    text-align:center; 
+    width:750px; } 
+
+p.postit{ 
+    border:1px solid yellow; 
+    height:300px; 
+    line-height:300px; 
+    width:400px; 
+    background-color: rgba(60, 132, 198, 0.8); 
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#FFFAAE), to(#FFF057)); 
+    background-image: -moz-linear-gradient(#FFFAAE 0%, #FFF057 90%); 
+    border-top-color: #FFF057; 
+    border-right-color: #FFF057; 
+    border-bottom-color: #FFF057; 
+    border-left-color: #FFF057; 
+    -webkit-box-shadow: #AAA 0px 10px 16px; 
+    -moz-box-shadow: #AAA 0px 10px 16px; /* FF 3.5+ */
+} 
