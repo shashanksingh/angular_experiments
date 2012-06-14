@@ -9,7 +9,15 @@
 </head>
 
 <body>
-    <div ng-controller="TodoCtrl">{{totalTodo}}</div>
+    <div ng-controller="TodoCtrl">
+        Total Todos :{{totalTodo}}
+        <ul class="unstyled">
+            <li ng-repeat="todo in todos">
+                <input type="checkbox" ng-model="todo.done" />
+                <span class="done-{{todo.done}}">{{todo.text}}</span>
+            </li>
+        </ul>
+    </div>
    
 </body>
 
